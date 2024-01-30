@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+      height: 100%;
+      background-image: url(/assets/imagens/sky);
+      background-size: cover;
+    }
+    form{
+      width: 300px;
+      margin: 200px auto;
+      text-align: center;
+      color: #ffffff;
+    }
+    input{
+      display: block;
+      margin: 10px auto;
+      width: 250px;
+      height: 40px;
+      font-weight: 300;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>faça seu cadastro</h1>
+  </header>
+  <main>
+    <div class="form">
+      <form>
+       <label for="name">digite seu nome</label><br>
+       <input class="aréa" type="text" name="nome" placeholder="digite seu nome"> <br>
+       <label for="name">digite seu telefone</label><br>
+       <input type="number" placeholder="digite seu telefone">
+       <label for="e-mail">digite seu e-mail</label><br>
+       <input type="email" placeholder="e-mail@mail.com"required><br>
+       <label for="e-mail">confirme seu e-mail</label><br>
+       <input type="email" placeholder="e-mail@mail.com"required><br>
+       <label for="sennha" placeholder="crie uma senha">crie uma senha</label>
+       <input type="password" required><br
+       <label for="senha">confirme sua senha</label><br>
+       <input type="password" required>
+      
+       <input type="button" value="enviar" onclick="alert('cadastro efectuado com sucesso!')">
+       
+
+      </form>
+    </div>
+  </main>
+  <footer>desenvolvido por Jefferson santos</footer>
+  
+</body>
+</html>
